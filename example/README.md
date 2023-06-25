@@ -25,7 +25,7 @@ See [client](./shmipc_client)
     3. `Add data source`
     4. Select `Prometheus` and fill the URL with `http://prometheus:9090`
     5. click `Save & Test` after configuration to test if it works
-7. add dashboard `Create` -> `dashboard`, add monitoring metrics such as throughput and pct99 according to your needs,
+7. add dashboard `Create` -> `dashboard`, add monitoring metrics such as shmipc-client all in used share memory in bytes and shmipc-server active stream count according to your needs,
    for example:
 
     - shmipc-client all in used share memory in bytes
